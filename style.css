@@ -1,0 +1,47 @@
+#game div {
+	border: 1px solid black;
+	width: 15%;
+	height: 300px;
+	margin: 10px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background: center center;
+	background-size: cover;
+	background-color: gold;
+}
+
+body {
+	background-color: pink;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #008080;
+}
+
+.hidden {
+	text-align: center;
+	display: none;
+}
+
+.container {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#start-game,
+#restart-game {
+	margin-top: 20px;
+	border: none;
+	font-size: 20px;
+	background-color: #008080;
+	padding: 10px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 18px;
+}

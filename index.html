@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Challenge Your Memory!</h1>
+
+  <div id="start-game-container" class="container">
+    <p>Pair the images on the cards in this memory game. Fun brain training for both children and adults!</p>
+    
+    <h3>Instructions</h3>
+    <p>On the game board, there are always two identical images. Start the game by flipping a card. Then try to find another card that has the same image as the first. If you can't find a pair, the flipped cards will be flipped back with the face down. Try to remember these images as it becomes easier to find pairs the longer you play. When you find a pair they are removed from the board. Match all pairs to finish the game!</p>
+    <input type="submit" value="Start Game" id="start-game">
+  </div>
+
+  <div id="end-game-container" class="container hidden">
+    <p id="game-result"></p>
+    <input type="submit" id="restart-game" value="Restart Game">
+  </div>
+
+  <div class="scores">
+  <p id="best-score"></p>
+  <p id="current-score"></p>
+  </div>
+
+  <div id="game"></div>
+
+  
+
+<script src=script.js></script>
+</body>
+</html>
